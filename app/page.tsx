@@ -1,8 +1,8 @@
 import { ArrowRight, Github, Mail } from "lucide-react";
 import Link from "next/link";
 import projects from "./projects";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Button } from "@/components/ui/button";
+// import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+// import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -124,7 +124,7 @@ export default function Home() {
               <h2 className="text-lg font-medium">Get in Touch</h2>
             </div>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm currently available for freelance work. If you have a project that you want to get started, think you
+              I&apos;m currently available for freelance work. If you have a project that you want to get started, think you
               need my help with something or just fancy saying hey, then get in touch.
             </p>
             <Link href="mailto:j@aldas.dev" className="inline-block text-[#A7A7FF] hover:underline">

@@ -1,11 +1,11 @@
-import { Github, Linkedin, Mail, FileText } from "lucide-react"
+import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
 export default function Hero() {
   return (
     <section className="container mx-auto px-4 py-16 md:py-24 bg-texture">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-[rgb(var(--navy-blue))] mb-6">
-          Hello, I'm <span className="text-[rgb(var(--accent-color))]">[Your Name]</span>
+        Hello, I&apos;m <span className="text-[rgb(var(--accent-color))]">[Your Name]</span>
         </h1>
         <p className="text-xl text-stone-600 mb-8">
           Passionate about crafting digital experiences that blend form and function. With a keen eye for design and a
@@ -34,6 +34,5 @@ export default function Hero() {
         </button>
       </div>
     </section>
-  )
+  );
 }
-
